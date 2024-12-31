@@ -10,8 +10,8 @@ const swaggerOptions: Options = {
     },
     servers: [
       {
-        // url: 'https://budget-tracker-api-mybm.onrender.com',
-        url: 'http://localhost:3000/api',
+        url: 'https://budget-tracker-api-mybm.onrender.com',
+        // url: 'http://localhost:3000/api',
       },
     ],
   },
