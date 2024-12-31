@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES6",                  // Target JavaScript version
-    "module": "CommonJS",             // Module system used by Node.js
-    "rootDir": "./src",               // Directory containing TypeScript source files
-    "outDir": "./dist",               // Directory for compiled JavaScript files
-    "strict": true,                   // Enable strict type checking
-    "esModuleInterop": true,          // Allow default imports from CommonJS modules
-    "skipLibCheck": true,             // Skip type checking of declaration files
-    "resolveJsonModule": true,        // Allow importing .json files
+    "target": "ES6", // Target JavaScript version
+    "module": "CommonJS", // Module system used by Node.js
+    "rootDir": "./src", // Directory containing TypeScript source files
+    "outDir": "./dist", // Directory for compiled JavaScript files
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Allow default imports from CommonJS modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "resolveJsonModule": true, // Allow importing .json files
     "forceConsistentCasingInFileNames": true // Enforce case-sensitive imports
   },
-  "include": ["src"],                // Include all TypeScript files in the src directory
+  "include": ["src"], // Include all TypeScript files in the src directory
   "exclude": ["node_modules", "dist"] // Exclude these directories
 }

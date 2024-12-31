@@ -12,4 +12,9 @@ export class ExpenseService {
   async getExpenseById(id: number) {
     return expenseRepository.findById(id);
   }
+
+  //Fetch all categories
+  async getAllCategories() {
+    return expenseRepository.findAllCategories();
+  }
 }
